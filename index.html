@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="/images/aurora.svg">
+    <script src="/admin.js" type="module" defer></script>
+    <title>Admin Dashboard</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <section class="header">
+        <div class="top-header">
+          <label>
+            <img class="icon" src="/images/icons/magnify.svg" alt="Search icon">
+            <input type="search" class="search-bar">
+          </label>
+          <div>
+            <img class="icon" src="/images/icons/bell-ring.svg">
+            <img class="avatar small-img" src="/images/avatars/avocadoes.svg" alt="User avatar">
+            <p>Seneca Lorraine</p>
+          </div>
+        </div>
+        <div class="bottom-header">
+          <div class="greeting-container">
+            <img class="avatar big-img" src="/images/avatars/avocadoes.svg" alt="User avatar">
+            <div class="greeting">
+              <p>Hi there,</p>
+              <h1 class="username">Seneca Lorraine (@senecalorraine)</h1>
+            </div>
+          </div>
+          <div class="controls">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="sidebar">
+        <div class="img-link-row" class="toggle-dash">
+          <img class="big-img" src="/images/icons/view-dashboard.svg" alt="Dashboard icon">
+          <h1>Dashboard</h1>
+        </div>
+        <div class="nav">
+          <ul class="pages">
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/home.svg" alt="Home icon">
+                <h2>Home</h2>
+              </a>
+            </li>
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/account.svg" alt="Profile icon">
+                <h2>Profile</h2>
+              </a>
+            </li>
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/message.svg" alt="Messages icon">
+                <h2>Messages</h2>
+              </a>
+            </li>
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/clock.svg" alt="History icon">
+                <h2>History</h2>
+              </a>
+            </li>
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/format-list-checks.svg" alt="Tasks icon">
+                <h2>Tasks</h2>
+              </a>
+            </li>
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/account-group.svg" alt="Communities icon">
+                <h2>Communities</h2>
+              </a>
+            </li>
+          </ul>
+          <ul class="support-links">
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/cog.svg" alt="Settings icon">
+                <h2>Settings</h2>
+              </a>
+            </li>
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/help-box.svg" alt="Support icon">
+                <h2>Support</h2>
+              </a>
+            </li>
+            <li>
+              <a class="img-link-row" href="#">
+                <img class="icon" src="/images/icons/security.svg" alt="Privacy icon">
+                <h2>Privacy</h2>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="main">
+        <div class="projects">
+          <h2>Your Projects</h2>
+          <div class="card-container">
+
+
+            <div class="card">
+              <h3>Project 1</h3>
+              <p class="cardText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
+                mollit anim id est laborum.</p>
+              <div class="reactions">
+                <img class="icon" src="/images/icons/star-box.svg" alt="Star">
+                <img class="icon" src="/images/icons/eye.svg" alt="Watch">
+                <img class="icon" src="/images/icons/share-variant.svg" alt="Share">
+              </div>
+            </div>
+            <div class="card">
+              <h3>Project 2</h3>
+              <p class="cardText">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                egestas. Curabitur
+                bibendum turpis quis interdum semper. Sed at pharetra neque, nec lacinia diam. Suspendisse quis faucibus
+                mi, aliquam porttitor ipsum. Vivamus condimentum eros id mattis pharetra. Duis varius eros nibh. Donec a
+                venenatis eros. Fusce in mauris massa. Donec est metus, rhoncus eu leo sed, aliquet posuere nisl.</p>
+              <div class="reactions">
+                <img class="icon" src="/images/icons/star-box.svg" alt="Star">
+                <img class="icon" src="/images/icons/eye.svg" alt="Watch">
+                <img class="icon" src="/images/icons/share-variant.svg" alt="Share">
+              </div>
+            </div>
+            <div class="card">
+              <h3>Project 3</h3>
+              <p class="cardText">Cras ut ex in nibh accumsan ullamcorper. Fusce rutrum, metus id porta porttitor, leo
+                ipsum congue
+                velit,
+                eu hendrerit lectus nisi a odio. Pellentesque tristique eros id nibh finibus euismod. Cras suscipit
+                volutpat elit eget pulvinar. Vivamus at blandit leo. Aenean sodales ex non massa efficitur, et egestas
+                neque dapibus. In consequat hendrerit ex, nec finibus magna faucibus eu. Aliquam a libero non erat
+                sollicitudin condimentum. In ac fringilla nisi. Sed pharetra ut turpis id luctus. Proin posuere tortor
+                ac
+                tempus luctus. Donec vitae est et neque faucibus posuere. Class aptent taciti sociosqu ad litora
+                torquent
+                per conubia nostra, per inceptos himenaeos.</p>
+              <div class="reactions">
+                <img class="icon" src="/images/icons/star-box.svg" alt="Star">
+                <img class="icon" src="/images/icons/eye.svg" alt="Watch">
+                <img class="icon" src="/images/icons/share-variant.svg" alt="Share">
+              </div>
+            </div>
+            <div class="card">
+              <h3>Project 4</h3>
+              <p class="cardText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex
+                ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt
+                mollit anim id est laborum.</p>
+              <div class="reactions">
+                <img class="icon" src="/images/icons/star-box.svg" alt="Star">
+                <img class="icon" src="/images/icons/eye.svg" alt="Watch">
+                <img class="icon" src="/images/icons/share-variant.svg" alt="Share">
+              </div>
+            </div>
+            <div class="card">
+              <h3>Project 5</h3>
+              <p class="cardText">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                egestas. Curabitur
+                bibendum turpis quis interdum semper. Sed at pharetra neque, nec lacinia diam. Suspendisse quis faucibus
+                mi, aliquam porttitor ipsum. Vivamus condimentum eros id mattis pharetra. Duis varius eros nibh. Donec a
+                venenatis eros. Fusce in mauris massa. Donec est metus, rhoncus eu leo sed, aliquet posuere nisl.</p>
+              <div class="reactions">
+                <img class="icon" src="/images/icons/star-box.svg" alt="Star">
+                <img class="icon" src="/images/icons/eye.svg" alt="Watch">
+                <img class="icon" src="/images/icons/share-variant.svg" alt="Share">
+              </div>
+            </div>
+            <div class="card">
+              <h3>Project 6</h3>
+              <p class="cardText">Cras ut ex in nibh accumsan ullamcorper. Fusce rutrum, metus id porta porttitor, leo
+                ipsum congue
+                velit,
+                eu hendrerit lectus nisi a odio. Pellentesque tristique eros id nibh finibus euismod. Cras suscipit
+                volutpat elit eget pulvinar. Vivamus at blandit leo. Aenean sodales ex non massa efficitur, et egestas
+                neque dapibus. In consequat hendrerit ex, nec finibus magna faucibus eu. Aliquam a libero non erat
+                sollicitudin condimentum. In ac fringilla nisi. Sed pharetra ut turpis id luctus. Proin posuere tortor
+                ac
+                tempus luctus. Donec vitae est et neque faucibus posuere. Class aptent taciti sociosqu ad litora
+                torquent
+                per conubia nostra, per inceptos himenaeos.</p>
+              <div class="reactions">
+                <img class="icon" src="/images/icons/star-box.svg" alt="Star">
+                <img class="icon" src="/images/icons/eye.svg" alt="Watch">
+                <img class="icon" src="/images/icons/share-variant.svg" alt="Share">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="right-content">
+
+          <div class="announcements-sect">
+            <h2>Announcements</h2>
+            <div class="announce-container">
+
+              <div class="announce-block">
+                <h4>Site Maintenance</h4>
+                <p>In consequat hendrerit ex, nec finibus magna faucibus eu. Aliquam a libero non erat sollicitudin.</p>
+              </div>
+              <div class="announce-block">
+                <h4>Community Share Day</h4>
+                <p>Duis varius eros nibh. Donec a venenatis eros. Fusce in mauris massa. Donec est metus.</p>
+              </div>
+              <div class="announce-block">
+                <h4>Updated Privacy Policy</h4>
+                <p>In ac fringilla nisi. Sed pharetra ut turpis id luctus. </p>
+              </div>
+            </div>
+          </div>
+          <div class="trending-sect">
+            <h2>Trending</h2>
+            <div class="trending-container">
+
+              <div class="trending-block">
+                <img src="#" alt="User icon">
+                <p class=" trending user-name">@tegame</p>
+                <p class="user-tag-line">Game and Tea Enthusiast</p>
+              </div>
+              <div class="trending-block">
+                <img src="#" alt="User icon">
+                <p class=" trending user-name">@moggs</p>
+                <p class="user-tag-line">Mealtime Prepper</p>
+              </div>
+              <div class="trending-block">
+                <img src="#" alt="User icon">
+                <p class=" trending user-name">@banggoes</p>
+                <p class="user-tag-line">Blit Blat Blin!</p>
+              </div>
+              <div class="trending-block">
+                <img class="small-img avatar astro" src="/images/avatars/astronaut.svg" alt="User icon">
+                <p class="trending user-name">@yourchildhoodfriend</p>
+                <p class="user-tag-line">Came for the cheese</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </body>
+
+</html>

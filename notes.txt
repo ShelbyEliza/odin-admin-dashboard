@@ -1,0 +1,8 @@
+Add alt for all svg files:
+<svg role="img" aria-label="[title + description]">
+  <title>[title]</title>
+  <desc>[long description]</desc>
+  ...
+</svg>
+
+

@@ -6,14 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="/images/aurora.svg">
-    <script src="/admin.js" type="module" defer></script>
     <title>Admin Dashboard</title>
   </head>
 
   <body>
     <div class="container">
 
-      <section class="header">
+      <header class="header">
         <div class="top-header">
           <label>
             <img class="icon" src="/images/icons/magnify.svg" alt="Search icon">
@@ -39,14 +38,14 @@
             <button>Share</button>
           </div>
         </div>
-      </section>
+      </header>
 
       <section class="sidebar">
         <div class="img-link-row" class="toggle-dash">
-          <img class="big-img" src="/images/icons/view-dashboard.svg" alt="Dashboard icon">
+          <img class="small-img" src="/images/icons/view-dashboard.svg" alt="Dashboard icon">
           <h1>Dashboard</h1>
         </div>
-        <div class="nav">
+        <nav>
           <ul class="pages">
             <li>
               <a class="img-link-row" href="#">
@@ -105,15 +104,13 @@
               </a>
             </li>
           </ul>
-        </div>
+        </nav>
       </section>
 
       <section class="main">
-        <div class="projects">
+        <main class="projects">
           <h2>Your Projects</h2>
           <div class="card-container">
-
-
             <div class="card">
               <h3>Project 1</h3>
               <p class="cardText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -211,7 +208,7 @@
               </div>
             </div>
           </div>
-        </div>
+        </main>
         <div class="right-content">
 
           <div class="announcements-sect">
@@ -237,24 +234,32 @@
             <div class="trending-container">
 
               <div class="trending-block">
-                <img src="#" alt="User icon">
-                <p class=" trending user-name">@tegame</p>
-                <p class="user-tag-line">Game and Tea Enthusiast</p>
+                <img class="small-img avatar" src="/images/avatars/tea.svg" alt="User icon">
+                <div>
+                  <p class="trending tag-name">@tegame</p>
+                  <p class="user-tag-line">Game and Tea Enthusiast</p>
+                </div>
               </div>
               <div class="trending-block">
-                <img src="#" alt="User icon">
-                <p class=" trending user-name">@moggs</p>
-                <p class="user-tag-line">Mealtime Prepper</p>
+                <img class="small-img avatar" src="/images/avatars/sunflowers.svg" alt="User icon">
+                <div>
+                  <p class="trending tag-name">@moggs</p>
+                  <p class="user-tag-line">Mealtime Prepper</p>
+                </div>
               </div>
               <div class="trending-block">
-                <img src="#" alt="User icon">
-                <p class=" trending user-name">@banggoes</p>
-                <p class="user-tag-line">Blit Blat Blin!</p>
+                <img src="/images/avatars/pizza.png" alt="User icon" class="small-img avatar">
+                <div>
+                  <p class="trending tag-name">@banggoes</p>
+                  <p class="user-tag-line">Blit Blat Blin!</p>
+                </div>
               </div>
               <div class="trending-block">
                 <img class="small-img avatar astro" src="/images/avatars/astronaut.svg" alt="User icon">
-                <p class="trending user-name">@yourchildhoodfriend</p>
-                <p class="user-tag-line">Came for the cheese</p>
+                <div>
+                  <p class="trending tag-name">@yourchildhoodfriend</p>
+                  <p class="user-tag-line">Came for the cheese</p>
+                </div>
               </div>
             </div>
 
